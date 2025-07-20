@@ -156,7 +156,11 @@ const defaultData: PortfolioData = {
       description: 'Awards and recognition in various competitions',
       category: 'Awards',
       items: [
-        { name: '3rd Prize in National Quiz by BIS', value: 'Winner', description: 'Excellence in technical knowledge' }
+        {
+          name: '3rd Prize in National Quiz by BIS',
+          value: 'Winner',
+          description: 'Excellence in technical knowledge'
+        }
       ]
     },
     {
@@ -165,37 +169,55 @@ const defaultData: PortfolioData = {
       description: 'Leadership roles and responsibilities',
       category: 'Leadership',
       items: [
-        { name: 'Leadership role in Electroverse 2024', value: 'Leader', description: 'Technical event coordination and management' }
+        {
+          name: 'Leadership role in Electroverse 2024',
+          value: 'Leader',
+          description: 'Technical event coordination and management'
+        },
+        {
+          name: 'Event Coordinator - Carpe Diem 2024',
+          value: 'Coordinator',
+          description: 'Vardhaman College of Engineering (VCEH) - A Literature Fest, June 2024',
+          link: 'https://drive.google.com/file/d/1kSF-dJbnOcGhxphxwq00YbjC7SI3AVh0/view?usp=sharing'
+        }
       ]
     }
   ],
+
   certifications: [
     {
       id: '1',
+      title: "Cyber Job Simulation",
+      provider: "Deloitte Australia – Forage (July 2025)",
+      category: "Cyber Threat Detection, Log File Analysis, Access Control Auditing, Metadata Analysis, Security Incident Reporting",
+      url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_EBNDxT7ybRkc566hd_1751898578862_completion_certificate.pdf"
+    },
+    {
+      id: '2',
       title: 'C & C++ Programming',
       provider: 'Udemy',
       category: 'Programming Languages'
     },
     {
-      id: '2',
+      id: '3',
       title: 'Python Fundamentals',
       provider: 'Great Learning',
       category: 'Programming Languages'
     },
     {
-      id: '3',
+      id: '4',
       title: 'Data Science',
       provider: 'STTP Program',
       category: 'Data Science & Analytics'
     },
     {
-      id: '4',
+      id: '5',
       title: 'Power BI',
       provider: 'Microsoft Learning',
       category: 'Data Visualization'
     },
     {
-      id: '5',
+      id: '6',
       title: 'Employability Skills',
       provider: 'Wadhwani Foundation',
       category: 'Professional Development'
