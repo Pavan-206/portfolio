@@ -1,4 +1,3 @@
-import React from 'react';
 import { User, Heart, Lightbulb, Users, Zap, Target } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 import { usePortfolio } from '../contexts/PortfolioContext';
