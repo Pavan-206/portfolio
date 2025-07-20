@@ -147,7 +147,7 @@ const defaultData: PortfolioData = {
         { name: 'CodeChef', value: '1259', description: 'Current rating' },
         { name: 'LeetCode', value: '1436', description: 'Current rating' },
         { name: 'HackerRank', value: '2 Badges', description: 'Earned badges' },
-        { name: 'Smart Interviews', value: 'Global Rank: 21859', description: 'Global ranking' }
+        { name: 'Smart Interviews', value: 'Global Rank: 17123', description: 'Global ranking' }
       ]
     },
     {
