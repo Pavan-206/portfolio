@@ -27,7 +27,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [isLoading, setIsLoading] = useState(true);
 
   const ADMIN_EMAIL = 'kanikepavankumar06@gmail.com';
-  const ADMIN_PASSWORD = 'admin123KPK';
+  const ADMIN_PASSWORD = 'Pavan@542005';
 
   useEffect(() => {
     const savedUser = localStorage.getItem('adminUser');
